@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactoryTests
+-------------------------------------------------------------------------------
+Tests run: 79, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 5.926 s - in org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactoryTests

@@ -1,0 +1,212 @@
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1644021752
+2020-02-20 21:53:43.908  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1411257988
+2020-02-20 21:53:43.943  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:43.950  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+C:/Users/ADMINI~1/AppData/Local/Temp/junit7535267546075371284/tmp.log [main] 732 o.s.b.l.l.LogbackLoggingSystemTests: Hello world
+ BOOTBOOTLOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1028683537
+2020-02-20 21:53:43.965  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1380265445
+2020-02-20 21:53:43.977  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:43.982  WARN   --- [           main] o.s.b.l.logback.LogbackLoggingSystem     : Ignoring 'logback.configurationFile' system property. Please use 'logging.config' instead.
+2020-02-20 21:53:43.986  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2067001369
+2020-02-20 21:53:43.998  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:44.017  INFO 732 --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:44.023 DEBUG   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello
+org.springframework.boot.logging.logback.LogbackLoggingSystemTests Hello worldLOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1372705948
+2020-02-20 21:53:44.042  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2118378380
+2020-02-20 21:53:44.051  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:44.075 DEBUG   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello debug world
+2020-02-20 21:53:44.097  INFO 732 --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1665637419
+2020-02-20 21:53:44.126  WARN   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Expected exception
+java.lang.RuntimeException: Expected
+	at org.springframework.boot.logging.logback.LogbackLoggingSystemTests.customExceptionConversionWord(LogbackLoggingSystemTests.java:467)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.RuntimeException: Cause
+	... 66 common frames omitted
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Adding conversion rule of type 'org.springframework.boot.logging.logback.ColorConverter' for word 'clr'
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Adding conversion rule of type 'org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter' for word 'wex'
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Adding conversion rule of type 'org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter' for word 'wEx'
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.apache.catalina.startup.DigesterFactory' with level 'ERROR'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.apache.catalina.util.LifecycleBase' with level 'ERROR'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.apache.coyote.http11.Http11NioProtocol' with level 'WARN'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.apache.sshd.common.util.SecurityUtils' with level 'WARN'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.apache.tomcat.util.net.NioSelectorPool' with level 'WARN'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.eclipse.jetty.util.component.AbstractLifeCycle' with level 'ERROR'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Configuring logger 'org.hibernate.validator.internal.util.Version' with level 'WARN'. Additive: true
+21:53:44,133 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+21:53:44,133 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Starting 'ch.qos.logback.classic.encoder.PatternLayoutEncoder@32cdf559'
+21:53:44,135 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Adding appender 'ch.qos.logback.core.ConsoleAppender[null]' named 'CONSOLE'
+21:53:44,135 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Starting 'ch.qos.logback.core.ConsoleAppender[CONSOLE]'
+21:53:44,135 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Starting 'ch.qos.logback.classic.encoder.PatternLayoutEncoder@b9b060'
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1079548301
+21:53:44,136 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Starting 'c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1079548301'
+21:53:44,136 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1079548301 - Archive files will be limited to [10 MB] each.
+21:53:44,136 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1079548301 - Will use gz compression
+21:53:44,136 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1079548301 - Will use the pattern C:/Users/ADMINI~1/AppData/Local/Temp/junit13994341835807835719/logback-test.log.%d{yyyy-MM-dd}.%i for the active file
+21:53:44,136 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@5c05c82a - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/Users/ADMINI~1/AppData/Local/Temp/junit13994341835807835719/logback-test.log.%d{yyyy-MM-dd}.%i.gz'.
+21:53:44,136 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@5c05c82a - Roll-over at midnight.
+21:53:44,137 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@5c05c82a - Setting initial period to Thu Feb 20 21:53:44 KST 2020
+21:53:44,137 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Adding appender 'ch.qos.logback.core.rolling.RollingFileAppender[null]' named 'FILE'
+21:53:44,137 |-INFO in org.springframework.boot.logging.logback.DebugLogbackConfigurator@706608e2 - Starting 'ch.qos.logback.core.rolling.RollingFileAppender[FILE]'
+21:53:44,137 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: C:\Users\ADMINI~1\AppData\Local\Temp\junit13994341835807835719\logback-test.log
+21:53:44,137 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [C:\Users\ADMINI~1\AppData\Local\Temp\junit13994341835807835719\logback-test.log]
+21:53:44,139 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@1d003834 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+2020-02-20 21:53:44.180  INFO 732 --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1001785500
+2020-02-20 21:53:44.233  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@903797018
+2020-02-20 21:53:44.260  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:44.268 DEBUG   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello
+2020-02-20 21:53:44.275 XINFOX   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@688505481
+2020-02-20 21:53:44.283  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20T09:53:44.289+0900  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@250112046
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@93418375
+2020-02-20 21:53:44.302  WARN   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Expected exception
+
+java.lang.RuntimeException: Expected
+	at org.springframework.boot.logging.logback.LogbackLoggingSystemTests.exceptionsIncludeClassPackaging(LogbackLoggingSystemTests.java:454) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1187281958
+2020-02-20 21:53:44.311  INFO   --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world
+2020-02-20 21:53:44.333  INFO 732 --- [           main] o.s.b.l.l.LogbackLoggingSystemTests      : Hello world

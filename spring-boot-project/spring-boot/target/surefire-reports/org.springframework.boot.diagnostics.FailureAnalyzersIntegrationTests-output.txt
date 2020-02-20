@@ -1,0 +1,26 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:32.826  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:32.827  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:32.830  WARN 732 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'failureAnalyzersIntegrationTests.TestConfiguration': Invocation of init method failed; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-02-20 21:53:32.831 ERROR 732 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

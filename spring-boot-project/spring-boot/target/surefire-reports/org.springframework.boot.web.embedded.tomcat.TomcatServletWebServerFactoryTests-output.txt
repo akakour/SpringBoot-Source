@@ -1,0 +1,141 @@
+2020-02-20 21:54:50.213  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:50.316  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55858 (http) with context path ''
+2020-02-20 21:54:50.364  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:50.445  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55865 (http) with context path ''
+2020-02-20 21:54:50.578  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:50.696  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:50.787  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:50.900  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:50.998  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55873 (http) with context path ''
+2020-02-20 21:54:51.049  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:51.134  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55880 (http) with context path ''
+2020-02-20 21:54:51.182  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:51.304  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55887 (https) with context path ''
+2020-02-20 21:54:51.393  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:52.037  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55894 (http) with context path ''
+2020-02-20 21:54:52.098  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 42099 (http)
+2020-02-20 21:54:52.170  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 42099 (http) with context path ''
+2020-02-20 21:54:52.217  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:52.327  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:52.399  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55912 (http) with context path ''
+2020-02-20 21:54:52.444  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:52.542  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55919 (https) with context path ''
+2020-02-20 21:54:52.629  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:52.736  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55926 (http) with context path ''
+2020-02-20 21:54:52.788  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:52.873  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55933 (https) with context path ''
+2020-02-20 21:54:52.938  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.010  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55940 (http) with context path ''
+2020-02-20 21:54:53.053  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.144  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55947 (http) with context path ''
+2020-02-20 21:54:53.209  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.330  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55954 (http) with context path ''
+2020-02-20 21:54:53.337  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.428  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): -1 (http) with context path ''
+2020-02-20 21:54:53.460  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.531  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55964 (http) with context path ''
+2020-02-20 21:54:53.650  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.747  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55972 (http) with context path ''
+2020-02-20 21:54:53.800  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:53.921  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55979 (http) with context path ''
+2020-02-20 21:54:53.975  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:54.068  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55985 (https) with context path ''
+2020-02-20 21:54:54.142  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:54.247  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:54.355  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 55992 (http) with context path ''
+2020-02-20 21:54:54.422  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:54.532  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56000 (https) with context path ''
+2020-02-20 21:54:54.630  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:54.782  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56007 (http) with context path ''
+2020-02-20 21:54:54.841  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:54.917  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56015 (http) with context path '/custom'
+2020-02-20 21:54:54.960  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:55.039  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56021 (https) with context path ''
+2020-02-20 21:54:55.127  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:55.225  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56029 (http) with context path ''
+2020-02-20 21:54:55.283  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:55.401  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56035 (http) with context path ''
+2020-02-20 21:54:55.491  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:55.665  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56042 (http) with context path ''
+2020-02-20 21:54:57.725  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:57.845  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56053 (https) with context path ''
+2020-02-20 21:54:57.922  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:58.016  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:58.124  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56060 (http) with context path ''
+2020-02-20 21:54:58.187  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:58.363  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:58.451  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56072 (http) with context path ''
+2020-02-20 21:54:58.495  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:58.578  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56078 (https) with context path ''
+2020-02-20 21:54:58.656  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:58.731  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56085 (http) with context path ''
+2020-02-20 21:54:58.779  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:58.850  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56092 (https) with context path ''
+2020-02-20 21:54:58.941  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:59.037  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56099 (http) with context path ''
+2020-02-20 21:54:59.119  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:59.210  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56106 (https) with context path ''
+2020-02-20 21:54:59.270  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:59.337  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56113 (http) with context path ''
+2020-02-20 21:54:59.376  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 53580 (http)
+2020-02-20 21:54:59.463  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:59.553  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56121 (http) with context path ''
+2020-02-20 21:54:59.635  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:59.668  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:54:59.752  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:54:59.986  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56128 (https) with context path ''
+2020-02-20 21:55:00.114  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http) 45398 (http)
+2020-02-20 21:55:00.261  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:00.345  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56145 (http) with context path ''
+2020-02-20 21:55:00.393  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:00.477  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56152 (http) with context path ''
+2020-02-20 21:55:00.573  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (https)
+2020-02-20 21:55:00.669  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56159 (https) with context path ''
+2020-02-20 21:55:00.740  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:00.816  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56166 (http) with context path '/say'
+2020-02-20 21:55:00.913  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.000  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56173 (http) with context path ''
+2020-02-20 21:55:01.047  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.163  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56180 (http) with context path ''
+2020-02-20 21:55:01.225  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.309  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56187 (http) with context path ''
+2020-02-20 21:55:01.484  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.649  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.726  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56200 (http) with context path ''
+2020-02-20 21:55:01.763  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.844  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:01.951  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56206 (http) with context path ''
+2020-02-20 21:55:01.983  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.101  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.277  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.407  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.513  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.589  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.713  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.845  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:02.927  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56217 (http) with context path ''
+2020-02-20 21:55:02.969  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.036  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56225 (http) with context path ''
+2020-02-20 21:55:03.078  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.151  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.237  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.320  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56232 (http) with context path ''
+2020-02-20 21:55:03.398  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.487  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56238 (http) with context path ''
+2020-02-20 21:55:03.555  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.633  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.710  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.779  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:03.863  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56244 (http) with context path ''
+2020-02-20 21:55:03.911  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.038  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.116  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56250 (http) with context path ''
+2020-02-20 21:55:04.157  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.229  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56257 (http) with context path ''
+2020-02-20 21:55:04.266  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.335  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.414  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 56263 (http) with context path ''
+2020-02-20 21:55:04.460  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http) -1 (http) -1 (http) -1 (http) -1 (http)
+2020-02-20 21:55:04.590  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 53584 (http)
+2020-02-20 21:55:04.713  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:04.797  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)

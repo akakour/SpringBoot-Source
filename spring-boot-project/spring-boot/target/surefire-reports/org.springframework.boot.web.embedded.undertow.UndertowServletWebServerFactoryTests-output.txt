@@ -1,0 +1,318 @@
+2020-02-20 21:55:05.943  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:05.947  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56490 (http) with context path ''
+2020-02-20 21:55:05.981  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.006  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.011  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56502 (http) with context path ''
+2020-02-20 21:55:06.019 ERROR ${sys:PID} --- [ XNIO-20 task-2] i.u.request                              : UT005023: Exception handling request to /bang
+
+java.lang.RuntimeException: Planned
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactoryTests$4.service(AbstractServletWebServerFactoryTests.java:1108) ~[test-classes/:?]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-20 21:55:06.025  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.179  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.184  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56515 (http) with context path ''
+2020-02-20 21:55:06.201  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.226  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.232  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56527 (http) with context path ''
+2020-02-20 21:55:06.240  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.270  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.274  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56539 (https) with context path ''
+2020-02-20 21:55:06.299  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.859  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.863  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56551 (http) with context path ''
+2020-02-20 21:55:06.863  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.887  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.891  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 54095 (http) with context path ''
+2020-02-20 21:55:06.896  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.951  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.955  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56573 (http) with context path ''
+2020-02-20 21:55:06.961  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.987  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:06.992  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56585 (https) with context path ''
+2020-02-20 21:55:07.027  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.064  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.070  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56597 (http) with context path ''
+2020-02-20 21:55:07.074  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.095  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.099  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56609 (https) with context path ''
+2020-02-20 21:55:07.121  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.144  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.148  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56621 (http) with context path ''
+2020-02-20 21:55:07.152  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.175  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.179  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56633 (http) with context path ''
+2020-02-20 21:55:07.184  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.211  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.215  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56645 (http) with context path ''
+2020-02-20 21:55:07.300  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.305  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56656 (http) with context path ''
+2020-02-20 21:55:07.319  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.370  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.375  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56669 (http) with context path ''
+2020-02-20 21:55:07.381  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.406  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.410  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56681 (http) with context path ''
+2020-02-20 21:55:07.411  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.447  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.452  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56692 (https) with context path ''
+2020-02-20 21:55:07.518  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.571  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.576  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56704 (http) with context path ''
+2020-02-20 21:55:07.583  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.608  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.613  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56716 (https) with context path ''
+2020-02-20 21:55:07.632  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.654  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.658  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56728 (http) with context path ''
+2020-02-20 21:55:07.665 ERROR ${sys:PID} --- [ XNIO-39 task-2] i.u.request                              : UT005023: Exception handling request to /bang
+
+java.lang.RuntimeException: Planned
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactoryTests$4.service(AbstractServletWebServerFactoryTests.java:1108) ~[test-classes/:?]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-20 21:55:07.668  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.701  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.706  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56741 (http) with context path '/custom'
+2020-02-20 21:55:07.706  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.731  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.735  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56752 (https) with context path ''
+2020-02-20 21:55:07.765  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.800  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.805  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56764 (http) with context path ''
+2020-02-20 21:55:07.805  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.832  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.836  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56775 (http) with context path ''
+2020-02-20 21:55:07.841  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.868  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:07.873  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56787 (http) with context path ''
+2020-02-20 21:55:07.873  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:09.901  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:09.905  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56800 (https) with context path ''
+2020-02-20 21:55:09.927  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:09.976  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:09.980  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56812 (http) with context path ''
+2020-02-20 21:55:09.981  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.024  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.028  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56823 (http) with context path ''
+2020-02-20 21:55:10.029  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.049  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.054  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56834 (https) with context path ''
+21:55:10.059 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+21:55:10.059 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2020-02-20 21:55:10.080  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+21:55:10.090 [HikariPool-2 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+21:55:10.090 [HikariPool-2 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-02-20 21:55:10.109  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.113  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56846 (http) with context path ''
+21:55:10.118 [HikariPool-4 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+21:55:10.118 [HikariPool-3 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+21:55:10.118 [HikariPool-4 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+21:55:10.118 [HikariPool-3 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2020-02-20 21:55:10.119  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.150  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.155  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56858 (https) with context path ''
+2020-02-20 21:55:10.182  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.218  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.225  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56870 (http) with context path ''
+2020-02-20 21:55:10.230  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.262  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.267  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56882 (https) with context path ''
+2020-02-20 21:55:10.290  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.293 ERROR ${sys:PID} --- [ XNIO-52 task-2] i.u.request                              : UT005071: Undertow request failed HttpServerExchange{ GET /hello}
+
+java.lang.NullPointerException: null
+	at io.undertow.protocols.ssl.SslConduit.doWrap(SslConduit.java:920) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.protocols.ssl.SslConduit.write(SslConduit.java:379) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.protocol.http.HttpResponseConduit.processWrite(HttpResponseConduit.java:251) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:598) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.conduits.AbstractFixedLengthStreamSinkConduit.write(AbstractFixedLengthStreamSinkConduit.java:106) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at org.xnio.conduits.Conduits.writeFinalBasic(Conduits.java:132) ~[xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.conduits.AbstractFixedLengthStreamSinkConduit.writeFinal(AbstractFixedLengthStreamSinkConduit.java:175) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.writeFinal(ConduitStreamSinkChannel.java:104) ~[xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.channels.DetachableStreamSinkChannel.writeFinal(DetachableStreamSinkChannel.java:195) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.writeFinal(HttpServerExchange.java:2084) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:572) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.close(ServletOutputStreamImpl.java:609) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.ServletPrintWriter.close(ServletPrintWriter.java:117) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.ServletPrintWriterDelegate.close(ServletPrintWriterDelegate.java:81) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.HttpServletResponseImpl.closeStreamAndWriter(HttpServletResponseImpl.java:528) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.spec.HttpServletResponseImpl.responseDone(HttpServletResponseImpl.java:623) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:328) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) ~[undertow-servlet-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-20 21:55:10.324  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.330  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56894 (http) with context path ''
+2020-02-20 21:55:10.330  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.402  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.408  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.444  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.449  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56915 (http) with context path ''
+2020-02-20 21:55:10.456  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.543  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.547  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56927 (https) with context path ''
+2020-02-20 21:55:10.594  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.629  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.636  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.677  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.682  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56950 (http) with context path ''
+2020-02-20 21:55:10.686  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.710  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.715  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56962 (http) with context path ''
+2020-02-20 21:55:10.719  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.743  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.748  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56974 (https) with context path ''
+2020-02-20 21:55:10.770 ERROR ${sys:PID} --- [  XNIO-60 I/O-2] i.u.request                              : Closing SSLConduit after exception on handshake
+
+javax.net.ssl.SSLHandshakeException: Empty client certificate chain
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:263) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:254) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1161) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1152) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:392) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:443) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1061) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1048) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:995) ~[?:?]
+	at io.undertow.protocols.ssl.SslConduit$5.run(SslConduit.java:1072) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+
+2020-02-20 21:55:10.771  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.796  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.800  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56986 (http) with context path '/say'
+2020-02-20 21:55:10.804  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.878  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.883  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 56998 (http) with context path ''
+2020-02-20 21:55:10.888  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.916  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.920  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57010 (http) with context path ''
+2020-02-20 21:55:10.925  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.953  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:10.957  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57022 (https) with context path ''
+2020-02-20 21:55:10.993  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.057  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.063  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57034 (https) with context path ''
+2020-02-20 21:55:11.077  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.076 ERROR ${sys:PID} --- [  XNIO-65 I/O-2] i.u.request                              : Closing SSLConduit after exception on handshake
+
+javax.net.ssl.SSLHandshakeException: no cipher suites in common
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:263) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:254) ~[?:?]
+	at sun.security.ssl.ServerHello$T12ServerHelloProducer.chooseCipherSuite(ServerHello.java:460) ~[?:?]
+	at sun.security.ssl.ServerHello$T12ServerHelloProducer.produce(ServerHello.java:295) ~[?:?]
+	at sun.security.ssl.SSLHandshake.produce(SSLHandshake.java:436) ~[?:?]
+	at sun.security.ssl.ClientHello$T12ClientHelloConsumer.consume(ClientHello.java:1102) ~[?:?]
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(ClientHello.java:854) ~[?:?]
+	at sun.security.ssl.ClientHello$ClientHelloConsumer.consume(ClientHello.java:813) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:392) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:443) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1061) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1048) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:995) ~[?:?]
+	at io.undertow.protocols.ssl.SslConduit$5.run(SslConduit.java:1072) ~[undertow-core-2.0.28.Final.jar:2.0.28.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+
+2020-02-20 21:55:11.108  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.115  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57046 (https) with context path ''
+2020-02-20 21:55:11.140  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.167  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.170  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57058 (http) with context path ''
+2020-02-20 21:55:11.177  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.203  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.207  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57071 (https) with context path ''
+2020-02-20 21:55:11.211  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.234  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.238  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57083 (https) with context path ''
+2020-02-20 21:55:11.261  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.289  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.293  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57099 (http) with context path ''
+2020-02-20 21:55:11.400  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.473  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.476  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57115 (http) with context path ''
+2020-02-20 21:55:11.580  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.615  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.620  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57127 (http) with context path ''
+2020-02-20 21:55:11.624  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.700  INFO ${sys:PID} --- [           main] i.undertow                               : starting server: Undertow - 2.0.28.Final
+2020-02-20 21:55:11.704  INFO ${sys:PID} --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 57139 (https) with context path ''
+2020-02-20 21:55:11.708  INFO ${sys:PID} --- [           main] i.undertow                               : stopping server: Undertow - 2.0.28.Final

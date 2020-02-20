@@ -1,0 +1,230 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.062  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.063  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: dev
+2020-02-20 21:53:22.066  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.095 seconds (JVM running for 41.363)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.204  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.205  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: customdefault,specific
+2020-02-20 21:53:22.208  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.105 seconds (JVM running for 41.505)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.384  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.385  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:22.396  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.114 seconds (JVM running for 41.693)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.548  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.549  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: customdefault
+2020-02-20 21:53:22.552  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.09 seconds (JVM running for 41.849)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.627  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.627  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:22.630  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.076 seconds (JVM running for 41.928)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:22.975  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:22.976  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:22.987  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.083 seconds (JVM running for 42.285)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.114  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.115  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:23.118  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.061 seconds (JVM running for 42.415)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.182  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.182  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: activeprofilewithdifferentsubdoc,activeprofilewithdifferentsubdoc2
+2020-02-20 21:53:23.185  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.064 seconds (JVM running for 42.482)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.241  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.242  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: activeprofilewithsubdoc
+2020-02-20 21:53:23.246  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.058 seconds (JVM running for 42.543)
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.custom' (classpath:/application.custom)
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.properties' (classpath:/application.properties)
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Activated activeProfiles other
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-simple.properties' (classpath:/application-simple.properties) for profile simple
+2020-02-20 21:53:23.361 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-other.properties' (classpath:/application-other.properties) for profile other
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.484  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.485  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: loop
+2020-02-20 21:53:23.487  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.079 seconds (JVM running for 42.785)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.599  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.600  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: myprofile
+2020-02-20 21:53:23.604  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.114 seconds (JVM running for 42.901)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.688  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.689  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:23.692  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.085 seconds (JVM running for 42.989)
+2020-02-20 21:53:23.871 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Activated activeProfiles other,dev
+2020-02-20 21:53:23.871 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.custom' (classpath:/application.custom)
+2020-02-20 21:53:23.871 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.properties' (classpath:/application.properties)
+2020-02-20 21:53:23.871 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-other.properties' (classpath:/application-other.properties) for profile other
+2020-02-20 21:53:23.871 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:23.950  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:23.951  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: dev
+2020-02-20 21:53:23.953  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.08 seconds (JVM running for 43.251)
+2020-02-20 21:53:24.025 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Activated activeProfiles other
+2020-02-20 21:53:24.025 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.custom' (classpath:/application.custom)
+2020-02-20 21:53:24.025 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.properties' (classpath:/application.properties)
+2020-02-20 21:53:24.025 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+2020-02-20 21:53:24.026 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-other.properties' (classpath:/application-other.properties) for profile other
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:24.113  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:24.113  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: dev,myprofile
+2020-02-20 21:53:24.116  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.088 seconds (JVM running for 43.413)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:24.212  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:24.212  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: test,another-test
+2020-02-20 21:53:24.215  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.097 seconds (JVM running for 43.512)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:24.288  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:24.289  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : No active profile set, falling back to default profiles: default
+2020-02-20 21:53:24.292  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.059 seconds (JVM running for 43.59)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+2020-02-20 21:53:24.482  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Starting ForkedBooter v2.22.2 on WINDOWS-EAIC6F6 with PID 732 (started by Administrator in F:\source\spring-boot-2.2.2.RELEASE\spring-boot-project\spring-boot)
+2020-02-20 21:53:24.482  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : The following profiles are active: includeprofile,specific,morespecific,yetmorespecific
+2020-02-20 21:53:24.485  INFO 732 --- [           main] o.a.m.s.b.ForkedBooter                   : Started ForkedBooter in 0.113 seconds (JVM running for 43.782)
+2020-02-20 21:53:24.542 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Activated activeProfiles dev
+2020-02-20 21:53:24.542 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.custom' (classpath:/application.custom)
+2020-02-20 21:53:24.542 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.properties' (classpath:/application.properties)
+2020-02-20 21:53:24.542 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-other.properties' (classpath:/application-other.properties) for profile other
+2020-02-20 21:53:24.542 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+2020-02-20 21:53:24.631 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Activated activeProfiles dev,other
+2020-02-20 21:53:24.631 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.custom' (classpath:/application.custom)
+2020-02-20 21:53:24.631 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application.properties' (classpath:/application.properties)
+2020-02-20 21:53:24.631 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+2020-02-20 21:53:24.631 DEBUG 732 --- [           main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/application-other.properties' (classpath:/application-other.properties) for profile other

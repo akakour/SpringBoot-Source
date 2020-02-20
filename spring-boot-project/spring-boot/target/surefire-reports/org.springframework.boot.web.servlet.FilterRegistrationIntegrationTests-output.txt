@@ -1,0 +1,6 @@
+2020-02-20 21:55:12.251  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:12.339  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 153 ms
+2020-02-20 21:55:12.351  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 57141 (http) with context path ''
+2020-02-20 21:55:12.377  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2020-02-20 21:55:12.521  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 163 ms
+2020-02-20 21:55:12.532  INFO ${sys:PID} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 57146 (http) with context path ''

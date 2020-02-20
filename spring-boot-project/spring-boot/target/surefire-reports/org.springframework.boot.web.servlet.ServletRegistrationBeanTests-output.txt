@@ -1,0 +1,2 @@
+2020-02-20 21:55:13.630  INFO ${sys:PID} --- [           main] o.s.b.w.s.RegistrationBean               : Servlet mockServlet was not registered (possibly already registered?)
+2020-02-20 21:55:13.639  INFO ${sys:PID} --- [           main] o.s.b.w.s.RegistrationBean               : Servlet mockServlet was not registered (disabled)

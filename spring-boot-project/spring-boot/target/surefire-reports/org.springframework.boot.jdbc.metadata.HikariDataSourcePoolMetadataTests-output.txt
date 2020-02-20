@@ -1,0 +1,16 @@
+2020-02-20 21:53:39.927  WARN 732 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+2020-02-20 21:53:39.931  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-20 21:53:39.949  INFO 732 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2020-02-20 21:53:39.952  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-20 21:53:39.980  WARN 732 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-2 - idleTimeout is less than 10000ms, setting to default 600000ms.
+2020-02-20 21:53:39.980  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-02-20 21:53:39.982  INFO 732 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (feature not supported)
+2020-02-20 21:53:39.983  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-02-20 21:53:39.989  WARN 732 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-3 - idleTimeout is less than 10000ms, setting to default 600000ms.
+2020-02-20 21:53:39.989  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-02-20 21:53:39.990  INFO 732 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (feature not supported)
+2020-02-20 21:53:39.991  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-02-20 21:53:40.002  WARN 732 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-4 - idleTimeout is less than 10000ms, setting to default 600000ms.
+2020-02-20 21:53:40.002  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-02-20 21:53:40.003  INFO 732 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Driver does not support get/set network timeout for connections. (feature not supported)
+2020-02-20 21:53:40.003  INFO 732 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.

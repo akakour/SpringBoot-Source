@@ -1,0 +1,10 @@
+2020-02-20 21:55:13.727  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 10 ms
+2020-02-20 21:55:13.760  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 23 ms
+2020-02-20 21:55:13.919  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 76 ms
+2020-02-20 21:55:14.312  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 6 ms
+2020-02-20 21:55:14.326  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 10 ms
+2020-02-20 21:55:14.388  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 8 ms
+2020-02-20 21:55:14.405  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 7 ms
+2020-02-20 21:55:14.414  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 5 ms
+2020-02-20 21:55:14.429  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 10 ms
+2020-02-20 21:55:14.481  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms

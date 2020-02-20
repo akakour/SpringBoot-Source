@@ -1,0 +1,29 @@
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@9b202e7
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@2d4eb702
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@6e708c89
+21:53:44.452 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.452 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@42dac03b
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@3f124648
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@93417ef
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@63895d70
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@289f80c2
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@cae2b14
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@59af541c
+21:53:44.648 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.648 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@45678766
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@79d1f613
+21:53:44.692 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.692 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@5fa8c810
+21:53:44.720 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.720 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@19457d60
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@4fce4660
+21:53:44.775 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.775 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@7958d1c3
+21:53:44.806 [main] TRACE org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests - Hello
+2020-02-20 21:53:44.806 TRACE   --- [           main] s.b.l.l.SpringBootJoranConfiguratorTests : Hello
+LOGBACK: No context given for ch.qos.logback.classic.BasicConfigurator@39b41af4

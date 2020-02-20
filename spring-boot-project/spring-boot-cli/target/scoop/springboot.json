@@ -1,0 +1,26 @@
+{
+  "homepage": "https://projects.spring.io/spring-boot/",
+  "version": "2.2.2",
+  "license": "Apache 2.0",
+  "hash": "283d0396d228f46226c6ea5becffea250ef2f18e387ab2191d15071e57cb4dbd",
+  "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.2.2.RELEASE/spring-boot-cli-2.2.2.RELEASE-bin.zip",
+  "extract_dir": "spring-2.2.2.RELEASE",
+  "bin": "bin\\spring.bat",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "checkver": {
+    "github": "https://github.com/spring-projects/spring-boot",
+    "re": "/releases/tag/(?:v)?(2[\\d.]+)\\.RELEASE"
+  },
+  "autoupdate": {
+    "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/$version.RELEASE/spring-boot-cli-$version.RELEASE-bin.zip",
+    "extract_dir": "spring-$version.RELEASE",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

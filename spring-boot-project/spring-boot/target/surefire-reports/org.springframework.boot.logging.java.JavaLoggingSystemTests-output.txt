@@ -1,0 +1,9 @@
+Feb 20, 2020 9:53:42 PM org.springframework.boot.logging.java.JavaLoggingSystemTests testNonDefaultConfigLocation
+INFO: Hello world
+[2020-02-20 21:53:42.373] - 1234 INFO [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello world
+[2020-02-20 21:53:42.386] - 1234 INFO [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello world
+[2020-02-20 21:53:42.397] - ???? INFO [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello world
+[2020-02-20 21:53:42.414] - ???? INFO [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello world
+[2020-02-20 21:53:42.465] - ???? FINE [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello
+[2020-02-20 21:53:42.477] - ???? INFO [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello world
+[2020-02-20 21:53:42.485] - ???? FINE [main] --- org.springframework.boot.logging.java.JavaLoggingSystemTests: Hello

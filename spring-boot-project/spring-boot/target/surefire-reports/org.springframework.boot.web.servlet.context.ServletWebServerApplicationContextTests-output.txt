@@ -1,0 +1,27 @@
+2020-02-20 21:55:14.492  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.510  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 10 ms
+2020-02-20 21:55:14.526  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 5 ms
+2020-02-20 21:55:14.538  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.547  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.554  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.563  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2 ms
+2020-02-20 21:55:14.569  WARN ${sys:PID} --- [           main] w.s.c.ServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to multiple ServletWebServerFactory beans : webServerFactory,webServerFactory2
+2020-02-20 21:55:14.591  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 20 ms
+2020-02-20 21:55:14.611  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.626  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.639  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.645  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2 ms
+2020-02-20 21:55:14.660  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.670  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.676  WARN ${sys:PID} --- [           main] w.s.c.ServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2020-02-20 21:55:14.684  INFO ${sys:PID} --- [           main] w.s.c.ServletWebServerApplicationContext : Restoring user defined scope request
+2020-02-20 21:55:14.684  INFO ${sys:PID} --- [           main] w.s.c.ServletWebServerApplicationContext : Restoring user defined scope session
+2020-02-20 21:55:14.687  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.706  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 6 ms
+2020-02-20 21:55:14.716  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 5 ms
+2020-02-20 21:55:14.727  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.737  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.744  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4 ms
+2020-02-20 21:55:14.752  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.758  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3 ms
+2020-02-20 21:55:14.765  INFO ${sys:PID} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2 ms

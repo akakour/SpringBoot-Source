@@ -1,0 +1,1 @@
+[Bindable@1836419 type = java.lang.String, value = 'provided', annotations = array<Annotation>[@org.springframework.boot.context.properties.bind.BindableTests$TestAnnotation()]]

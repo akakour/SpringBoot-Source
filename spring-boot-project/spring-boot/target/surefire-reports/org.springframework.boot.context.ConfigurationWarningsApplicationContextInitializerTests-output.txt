@@ -1,0 +1,20 @@
+2020-02-20 21:53:21.407  WARN 732 --- [           main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of 'org.springframework'.
+
+
+2020-02-20 21:53:21.471  WARN 732 --- [           main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2020-02-20 21:53:21.499  WARN 732 --- [           main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2020-02-20 21:53:21.523  WARN 732 --- [           main] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package, 'org.springframework'.
+
+

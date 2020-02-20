@@ -1,0 +1,56 @@
+21:54:38.133 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@7f0ab762{STOPPED}[9.4.24.v20191120] added {QueuedThreadPool[qtp548743279]@20b5286f{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HttpConnectionFactory@6cfc6ec6[HTTP/1.1] added {HttpConfiguration@2eb716e4{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@27c8a50d]},POJO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - SslConnectionFactory@dd3b731{SSL->HTTP/1.1} added {Server@2567213[provider=null,keyStore=file:///F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/test.jks,trustStore=null],AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{null,[]}{0.0.0.0:0} added {Server@7f0ab762{STOPPED}[9.4.24.v20191120],UNMANAGED}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{null,[]}{0.0.0.0:0} added {QueuedThreadPool[qtp548743279]@20b5286f{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{null,[]}{0.0.0.0:0} added {ScheduledExecutorScheduler@76c26bc3{STOPPED},AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@66b82015,POJO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{null,[ssl]}{0.0.0.0:0} added {SslConnectionFactory@dd3b731{SSL->HTTP/1.1},AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@1440548b{SSL,[ssl]}{0.0.0.0:0} added SslConnectionFactory@dd3b731{SSL->HTTP/1.1}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{SSL,[ssl, http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@6cfc6ec6[HTTP/1.1],AUTO}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@1440548b{SSL,[ssl, http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@6cfc6ec6[HTTP/1.1]
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@1440548b{SSL,[ssl, http/1.1]}{0.0.0.0:0} added {SelectorManager@ServerConnector@1440548b{SSL,[ssl, http/1.1]}{0.0.0.0:0},MANAGED}
+21:54:38.134 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@7f0ab762{STOPPED}[9.4.24.v20191120] added {ServerConnector@1440548b{SSL,[ssl, http/1.1]}{0.0.0.0:0},AUTO}
+21:54:38.135 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@244405c2{STOPPED}[9.4.24.v20191120] added {QueuedThreadPool[qtp1094574677]@413de255{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.156 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HTTP2ServerConnectionFactory@62c72a78[h2] added {HTTP2SessionContainer@5a9c64e[size=0],POJO}
+21:54:38.156 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HTTP2ServerConnectionFactory@62c72a78[h2] added {HttpConfiguration@7d1b2b87{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@1113ae5a]},POJO}
+21:54:38.250 [main] DEBUG org.eclipse.jetty.alpn.conscrypt.server.ConscryptServerALPNProcessor - Added Conscrypt provider
+21:54:38.250 [main] DEBUG org.eclipse.jetty.alpn.server.ALPNServerConnectionFactory - protocols: []
+21:54:38.251 [main] DEBUG org.eclipse.jetty.alpn.server.ALPNServerConnectionFactory - processors: [org.eclipse.jetty.alpn.conscrypt.server.ConscryptServerALPNProcessor@25063a60]
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - SslConnectionFactory@117dfd40{SSL->alpn} added {Server@7819cf0c[provider=Conscrypt,keyStore=file:///F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/test.jks,trustStore=null],AUTO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HttpConnectionFactory@4915b692[HTTP/1.1] added {HttpConfiguration@7d1b2b87{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@1113ae5a]},POJO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{null,[]}{0.0.0.0:0} added {Server@244405c2{STOPPED}[9.4.24.v20191120],UNMANAGED}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{null,[]}{0.0.0.0:0} added {QueuedThreadPool[qtp1094574677]@413de255{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{null,[]}{0.0.0.0:0} added {ScheduledExecutorScheduler@2147611f{STOPPED},AUTO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@1710bb94,POJO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{null,[ssl]}{0.0.0.0:0} added {SslConnectionFactory@117dfd40{SSL->alpn},AUTO}
+21:54:38.253 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@5fae1057{SSL,[ssl]}{0.0.0.0:0} added SslConnectionFactory@117dfd40{SSL->alpn}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{SSL,[ssl, alpn]}{0.0.0.0:0} added {ALPNServerConnectionFactory@73552ec2{[alpn],null,[]},AUTO}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@5fae1057{SSL,[ssl, alpn]}{0.0.0.0:0} added ALPNServerConnectionFactory@73552ec2{[alpn],null,[]}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{SSL,[ssl, alpn, h2]}{0.0.0.0:0} added {HTTP2ServerConnectionFactory@62c72a78[h2],AUTO}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@5fae1057{SSL,[ssl, alpn, h2]}{0.0.0.0:0} added HTTP2ServerConnectionFactory@62c72a78[h2]
+21:54:38.254 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@4915b692[HTTP/1.1],AUTO}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@5fae1057{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@4915b692[HTTP/1.1]
+21:54:38.254 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@5fae1057{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added {SelectorManager@ServerConnector@5fae1057{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0},MANAGED}
+21:54:38.254 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@244405c2{STOPPED}[9.4.24.v20191120] added {ServerConnector@5fae1057{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0},AUTO}
+21:54:38.256 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@e24a163{STOPPED}[9.4.24.v20191120] added {QueuedThreadPool[qtp1423816196]@54ddb604{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.257 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HTTP2ServerConnectionFactory@67b958ec[h2] added {HTTP2SessionContainer@3aad3c61[size=0],POJO}
+21:54:38.257 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HTTP2ServerConnectionFactory@67b958ec[h2] added {HttpConfiguration@379d0a6{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@28fd4613]},POJO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.alpn.server.ALPNServerConnectionFactory - protocols: []
+21:54:38.258 [main] DEBUG org.eclipse.jetty.alpn.server.ALPNServerConnectionFactory - processors: [org.eclipse.jetty.alpn.conscrypt.server.ConscryptServerALPNProcessor@617fd721]
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - SslConnectionFactory@69b82d1f{SSL->alpn} added {Server@5bcf24fc[provider=Conscrypt,keyStore=file:///F:/source/spring-boot-2.2.2.RELEASE/spring-boot-project/spring-boot/target/test-classes/test.jks,trustStore=null],AUTO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - HttpConnectionFactory@32679143[HTTP/1.1] added {HttpConfiguration@379d0a6{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@28fd4613]},POJO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{null,[]}{0.0.0.0:0} added {Server@e24a163{STOPPED}[9.4.24.v20191120],UNMANAGED}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{null,[]}{0.0.0.0:0} added {QueuedThreadPool[qtp1423816196]@54ddb604{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{null,[]}{0.0.0.0:0} added {ScheduledExecutorScheduler@5c68e8c{STOPPED},AUTO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@278cb20c,POJO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{null,[ssl]}{0.0.0.0:0} added {SslConnectionFactory@69b82d1f{SSL->alpn},AUTO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@2dbe8ef1{SSL,[ssl]}{0.0.0.0:0} added SslConnectionFactory@69b82d1f{SSL->alpn}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{SSL,[ssl, alpn]}{0.0.0.0:0} added {ALPNServerConnectionFactory@296fd237{[alpn],null,[]},AUTO}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@2dbe8ef1{SSL,[ssl, alpn]}{0.0.0.0:0} added ALPNServerConnectionFactory@296fd237{[alpn],null,[]}
+21:54:38.258 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2]}{0.0.0.0:0} added {HTTP2ServerConnectionFactory@67b958ec[h2],AUTO}
+21:54:38.259 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2]}{0.0.0.0:0} added HTTP2ServerConnectionFactory@67b958ec[h2]
+21:54:38.259 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@32679143[HTTP/1.1],AUTO}
+21:54:38.259 [main] DEBUG org.eclipse.jetty.server.AbstractConnector - ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@32679143[HTTP/1.1]
+21:54:38.259 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0} added {SelectorManager@ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0},MANAGED}
+21:54:38.259 [main] DEBUG org.eclipse.jetty.util.component.ContainerLifeCycle - Server@e24a163{STOPPED}[9.4.24.v20191120] added {ServerConnector@2dbe8ef1{SSL,[ssl, alpn, h2, http/1.1]}{0.0.0.0:0},AUTO}

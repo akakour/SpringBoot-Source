@@ -1,0 +1,8 @@
+2020-02-20 21:53:45.160  INFO ${sys:PID} --- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-20 21:53:45.239  INFO ${sys:PID} --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 21:53:45.415  WARN ${sys:PID} --- [           main] o.h.e.j.c.i.ConnectionProviderInitiator  : HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2020-02-20 21:53:45.416  WARN ${sys:PID} --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2020-02-20 21:53:45.433  INFO ${sys:PID} --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-02-20 21:53:45.664  WARN ${sys:PID} --- [           main] o.h.e.j.c.i.ConnectionProviderInitiator  : HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2020-02-20 21:53:45.664  WARN ${sys:PID} --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2020-02-20 21:53:45.664  INFO ${sys:PID} --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect

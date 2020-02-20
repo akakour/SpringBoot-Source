@@ -1,0 +1,1 @@
+2020-02-20 21:53:53.134  WARN ${sys:PID} --- [           main] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
